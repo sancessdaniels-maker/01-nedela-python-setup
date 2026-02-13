@@ -1,0 +1,41 @@
+# 1. Variables
+wallet = 5.00
+coffee_price = 3.00
+
+# 2. Decision logic
+if wallet >= coffee_price:
+    
+    # 3. Perform the transaction
+    wallet = wallet - coffee_price (5 - 3 = 2)
+    
+    # 4. Confirm the result
+    print("Transaction Success: Drinking Coffee")
+
+# 5. Alternative
+else:
+    
+    # 6. Report the error
+    print("Error: Insufficient Funds")
+
+
+
+
+
+# 1. Password typed
+correct_password = "MySecretPassword123"
+
+# 2. Username typed
+user_input = "MySecretPassword123"
+
+# 3. Compare the input against the database
+if user_input == correct_password:
+
+    # 4. Change the state to 'Logged In'
+    access_granted = True
+
+    # 5. Load the user interface
+    print("Success: Welcome to Inbox...")
+
+else:
+    # 6. Reject the connection
+    print("Error: Wrong password. Try again.")
